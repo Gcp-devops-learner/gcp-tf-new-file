@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#CENGBD-583] Enable Cloud SQL - Terraform Module</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.aexp.com/jira/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [CENGBD-583]&nbsp;<a href="https://jira.aexp.com/jira/browse/CENGBD-583">Enable Cloud SQL - Terraform Module</a>
+            <span class="subText">
+               Created: 18/Apr/22                   &nbsp;Updated: 16/May/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.aexp.com/jira/secure/BrowseProject.jspa?id=47708">CE NGBD</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="AXP PI 22.2"
+                href="https://jira.aexp.com/jira/issues/?jql=project%3D47708%20AND%20%22fixVersion%22%3D90437%20ORDER%20BY%20priority%20ASC"
+            >AXP PI 22.2</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                P1
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="slaks8" id="word_reporter_slaks8" href="https://jira.aexp.com/jira/secure/ViewProfile.jspa?name=slaks8">Srividhya Lakshminarayanan</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-3110028-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Feature Link:</b></td>
+                <td id="customfield_10005-3110028-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-9" href="https://jira.aexp.com/jira/browse/CENGBD-380">
+        PI 22.2 CENGBD-Enable new services for NGBD E1
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10004-3110028-value" class="value" bgcolor="#ffffff" width="80%">AXP 22.2.8_CNGBD</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a cloud platform engineer I need to enable terraform module for Cloud SQL with following inputs. Please only focus on Postgre SQL for now but terraform modules can be envisioned for all 3 below cloud instances.</p>
+
+<p> </p>
+<ol>
+	<li>Configuration Management
+	<ol>
+		<li>Cloud instances support the following versions
+		<ol>
+			<li><a href="https://cloud.google.com/sql/docs/mysql/db-versions" class="external-link" target="_blank" rel="nofollow noopener">MySQL</a> 8.0, 5.7 (default), and 5.6</li>
+			<li><font color="#00875a"><a href="https://cloud.google.com/sql/docs/postgres/db-versions" class="external-link" target="_blank" rel="nofollow noopener">PostgreSQL</a> 14, 13 (default), 12, 11, 10 and 9.6 </font></li>
+			<li><a href="https://cloud.google.com/sql/docs/sqlserver/db-versions" class="external-link" target="_blank" rel="nofollow noopener">SQL Server</a> 2019 Enterprise, Standard, Express, &amp; Web, and SQL Server 2017 Enterprises, Standard (default), Express, &amp; Web</li>
+		</ol>
+		</li>
+		<li>Cloud SQL automatically keeps your instances up to date with patches and minor version updates.</li>
+	</ol>
+	</li>
+</ol>
+
+
+<ol>
+	<li>
+	<ol>
+		<li>Cloud SQL supports new major versions within five months of general availability release by the database engine developer.
+		<ol>
+			<li>Any instance that has not moved to the new major version at the end of the 12-month period will be automatically upgraded.</li>
+		</ol>
+		</li>
+		<li>Maximum supported instance resources are 96 vCPU and 624GB memory.</li>
+		<li>Minimum supported instance resources are 1 vCPU and 3.75GB memory, except for SQL Server Web and Standard at 1 vCPU and 4GB memory, and Enterprise at 2 vCPU and 4GB memory.</li>
+		<li>You can <a href="https://cloud.google.com/sql/docs/mysql/create-instance#create-2nd-gen" class="external-link" target="_blank" rel="nofollow noopener">create a Cloud SQL</a> for a MySQL, a PostgreSQL and SQL Server instance utilizing:
+		<ol>
+			<li>The GCP Console</li>
+			<li>Gcloud</li>
+			<li>RESTv1</li>
+			<li>REST v1beta4</li>
+		</ol>
+		</li>
+		<li>You can use Cloud SQL for MySQL with App Engine applications running in the flexible environment that are written in C#, Go, Java, Node.js, PHP, Python, and Ruby. You can also use Cloud SQL with external applications using the standard MySQL protocol.</li>
+	</ol>
+	</li>
+</ol>
+
+
+<ol>
+	<li>
+	<ol>
+		<li>A newly-created instance has four system databases: <tt>information_schema</tt>, <tt>mysql</tt>, <tt>performance_schema</tt>, and <tt>sys</tt>.</li>
+		<li>You can <a href="https://cloud.google.com/sql/docs/features#supported_languages" class="external-link" target="_blank" rel="nofollow noopener">connect to a Cloud SQL</a> instance from:
+		<ol>
+			<li>The standard CLI client associated with the SQL instance type for msql databases. <a href="https://cloud.google.com/sql/docs/mysql/connect-admin-ip" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+			<li>Third-party tools compatible with the SQL instance type, e.g. SQL Workbench for MySQL. <a href="https://cloud.google.com/sql/docs/mysql/admin-tools" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+			<li>External applications. <a href="https://cloud.google.com/sql/docs/mysql/connect-external-app" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+			<li>App Engine applications. <a href="https://cloud.google.com/sql/docs/mysql/connect-app-engine" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+			<li>Applications running on Compute Engine. <a href="https://cloud.google.com/sql/docs/mysql/connect-compute-engine" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+			<li>Applications running on Google Kubernetes Engine. <a href="https://cloud.google.com/sql/docs/mysql/connect-kubernetes-engine" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+			<li>Cloud Functions. <a href="https://cloud.google.com/sql/docs/mysql/connect-functions" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+			<li>Cloud Run. <a href="https://cloud.google.com/sql/docs/mysql/connect-run" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+			<li>Google Apps Script scripts <a href="https://developers.google.com/apps-script/jdbc" class="external-link" target="_blank" rel="nofollow noopener">Learn more</a>.</li>
+		</ol>
+		</li>
+		<li>Reference <a href="https://cloud.google.com/sql/docs/mysql/feature_support" class="external-link" target="_blank" rel="nofollow noopener">this list of main features</a> of Cloud SQL, alongside which database engines support said features.</li>
+		<li>Cloud SQL supports automated and on-demand backups and point-in-time recovery.</li>
+		<li>Cloud SQL supports instance cloning.</li>
+		<li>Over the life of a Cloud SQL instance, two kinds of updates can occur:</li>
+	</ol>
+	</li>
+</ol>
+
+
+<ol>
+	<li>
+	<ol>
+		<li>
+		<ol>
+			<li><b><a href="https://cloud.google.com/sql/docs/mysql/introduction#configuration_updates" class="external-link" target="_blank" rel="nofollow noopener">Configuration updates</a></b>, which are done by the user.</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+</ol>
+
+
+<ol>
+	<li>
+	<ol>
+		<li>
+		<ol>
+			<li><b><a href="https://cloud.google.com/sql/docs/mysql/introduction#system_updates" class="external-link" target="_blank" rel="nofollow noopener">System updates</a></b>, which are performed by Cloud SQL.</li>
+		</ol>
+		</li>
+		<li>Each Cloud SQL instance is powered by a virtual machine (VM) running on a host Google Cloud server.</li>
+		<li>Each VM operates the database program, such as MySQL Server, PostgreSQL, or SQL Server, and service agents that provide supporting services, such as logging and monitoring.</li>
+		<li>The high availability option also provides a standby VM in another zone with a configuration that's identical to the primary VM.</li>
+		<li><a href="https://cloud.google.com/sql/docs/mysql/introduction#database_administration" class="external-link" target="_blank" rel="nofollow noopener">Database administration</a>
+		<ol>
+			<li>Cloud SQL lets you create and delete databases and database users, even though it isn't a database administration tool.</li>
+			<li>There are many database administration tools you can choose from, depending on your database engine, including the following:
+			<ol>
+				<li><a href="https://www.phpmyadmin.net/" class="external-link" target="_blank" rel="nofollow noopener">phpMyAdmin</a> for MySQL</li>
+				<li><a href="https://www.mysql.com/products/workbench/" class="external-link" target="_blank" rel="nofollow noopener">MySQL Workbench</a> for MySQL</li>
+				<li><a href="https://www.quest.com/products/toad-edge/" class="external-link" target="_blank" rel="nofollow noopener">Toad Edge</a> for MySQL and PostgreSQL</li>
+				<li><a href="https://www.pgadmin.org/" class="external-link" target="_blank" rel="nofollow noopener">pgAdmin.org</a> for PostgreSQL</li>
+				<li><a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15" class="external-link" target="_blank" rel="nofollow noopener">SQL Server Management Studio</a> for SQL Server</li>
+				<li><a href="https://code.visualstudio.com/" class="external-link" target="_blank" rel="nofollow noopener">Visual Studio Code</a> for SQL Server</li>
+			</ol>
+			</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Mon May 16 08:35:45 EDT 2022 by SriCharan Koyalkar using Jira 8.5.3#805003-sha1:b4933e02eaff29a49114274fe59e1f99d9d963d7.
+
+</body>
+</html>
